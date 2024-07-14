@@ -1,0 +1,30 @@
+ Calculate mean and standard deviation
+gdp_mean = np.mean(gdp)
+gdp_std = np.std(gdp)
+
+population_mean = np.mean(population)
+population_std = np.std(population)
+
+education_level_mean = np.mean(education_level)
+education_level_std = np.std(education_level)
+
+infrastructure_index_mean = np.mean(infrastructure_index)
+infrastructure_index_std = np.std(infrastructure_index)
+
+industrialization_index_mean = np.mean(industrialization_index)
+industrialization_index_std = np.std(industrialization_index)
+
+agricultural_output_mean = np.mean(agricultural_output)
+agricultural_output_std = np.std(agricultural_output)
+
+service_sector_contribution_mean = np.mean(service_sector_contribution)
+service_sector_contribution_std = np.std(service_sector_contribution)
+
+ Print basic statistics
+print(f"GDP Mean: {gdp_mean}, GDP Std Dev: {gdp_std}")
+print(f"Population Mean: {population_mean}, Population Std Dev: {population_std}")
+print(f"Education Level Mean: {education_level_mean}, Education Level Std Dev: {education_level_std}")
+print(f"Infrastructure Index Mean: {infrastructure_index_mean}, Infrastructure Index Std Dev: {infrastructure_index_std}")
+print(f"Industrialization Index Mean: {industrialization_index_mean}, Industrialization Index Std Dev: {industrialization_index_std}")
+print(f"Agricultural Output Mean: {agricultural_output_mean}, Agricultural Output Std Dev: {agricultural_output_std}")
+print(f"Service Sector Contribution Mean: {service_sector_contribution_mean}, Service Sector Contribution Std Dev: {service_sector_contribution_std}")
