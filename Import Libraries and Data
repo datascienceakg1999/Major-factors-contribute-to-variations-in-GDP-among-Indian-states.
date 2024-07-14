@@ -1,0 +1,18 @@
+import numpy as np
+
+ data: [State, GDP (in billions), Population (in millions), Education Level (avg years), Infrastructure Index (0-1), Industrialization Index (0-1), Agricultural Output (in billions), Service Sector Contribution (%)]
+data = np.array([
+    ["State1", 500, 30, 8, 0.6, 0.5, 200, 50],
+    ["State2", 300, 20, 7, 0.5, 0.4, 150, 40],
+    ["State3", 700, 50, 9, 0.7, 0.6, 250, 60],
+    ["State4", 400, 25, 6, 0.4, 0.3, 100, 45],
+    ["State5", 600, 35, 8.5, 0.65, 0.55, 220, 55],
+    # Add more states as needed
+])
+gdp = data[:, 1].astype(float)
+population = data[:, 2].astype(float)
+education_level = data[:, 3].astype(float)
+infrastructure_index = data[:, 4].astype(float)
+industrialization_index = data[:, 5].astype(float)
+agricultural_output = data[:, 6].astype(float)
+service_sector_contribution = data[:, 7].astype(float)
